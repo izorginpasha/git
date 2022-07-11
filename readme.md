@@ -352,8 +352,4 @@ git commit -am "Navigation fixs"   # сделать коммит
 Простое решение: указать git кешировать ваш пароль.
 
 .gitattributes
-* text=auto
-
-*.html diff=html
-*.css  diff=css
-*.scss diff=css
+https://github.com/cyberspacedk/Git-commands#readme ссылка на оригинал
