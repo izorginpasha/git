@@ -47,6 +47,15 @@ git config --global core.autocrlf true # включить преобразова
 Если нужно что-то написать, нажмите i — это переход в режим вставки текста. Если нужно сохранить изменения, перейдите в командный режим и наберите :w.
 
 Vim (некоторые команды)
+Слиние нового репозитория 
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:izorginpasha/test.git
+git push -u origin main
+
 # Нажатия кнопок
 ESC     — переход в командный режим
 i       — переход в режим редактирования текста
